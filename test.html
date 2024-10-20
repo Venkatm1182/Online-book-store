@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick=func()></button>
+    <div id="d"></div>
+
+    <script>
+     function func(){
+       var di=document.getElementById('d');
+        var lab=document.createElement('label');
+        lab.innerHTML="name";
+        var inp=document.createElement('input');
+        inp.type="text";
+        di.appendChild(lab);
+        di.appendChild(inp);
+
+
+     }
+        
+    </script>
+</body>
+</html>
